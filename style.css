@@ -109,7 +109,7 @@ ul li a:active {
 /**************************** HOME ********************/
 .banner-img {
   display: flex;
-  background: url("images/image2.jpg");
+  background: url("image2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
