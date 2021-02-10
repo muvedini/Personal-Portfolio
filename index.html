@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myPortfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/6f8dace0a2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">my<span>Portfolio</span></div>
+        <ul class="menu" id="idMenu">
+          <li><a onclick="toggleHome()">Home</a></li>
+          <li><a href="#linked_interest">Interests</a></li>
+          <li><a href="#linked_skill">Skills</a></li>
+          <li><a href="#linked_achieve">Achievements</a></li>
+          <li><a href="#linked_contact">Contact</a></li>
+        </ul>
+        <div class="toggleham" id="idtoggleHam">
+          <i id="hamI" class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="banner" id="home">
+      <div class="banner-img">
+        <div class="max-width">
+          <div class="text1">Hello...! I'm <span>Muvedini</span></div>
+          <div class="text2">The Frontend <span>Developer</span></div>
+          <div class="text3">
+            <button class="contact" onclick="location.href='#linked_contact'">
+              PING me
+            </button>
+          </div>
+          <button id="gotoTopBtn" title="Top" onclick="topFn()">
+            <i class="fas fa-chevron-circle-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section class="interest">
+      <div class="max-width">
+        <div class="heading">
+          <h1 id="linked_interest">INTERESTS</h1>
+        </div>
+        <div class="underline-custom"></div>
+      </div>
+
+      <div class="container">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>WEB DEVELOPMENT</h3>
+          <p>
+            Whenever I see a website, my mind wonders how all the elements are
+            built. Thereby formed a never-ending love for website development.
+            Difficulty level is quite high, yet interesting.
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-podcast"></i>
+          </div>
+          <h3>PUBLIC SPEAKING</h3>
+          <p>
+            I regretted in my high school days being a loud-voiced child. I
+            decided to turn it in a positive aspect. Thereby participated in
+            lots of elocution and love to be the first person to talk in group
+            holding my own crown with pride.
+          </p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-motorcycle"></i>
+          </div>
+          <h3>TRAVELLING</h3>
+          <p>
+            No person with passion for bikes and cars won't love travelling.
+            Difficulty level ?? Nahh... It's my hell comfort zone....I wander in
+            search of peace and inspiration.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="achieve skillbg">
+      <div class="max-width">
+        <div class="heading">
+          <h1 id="linked_skill">SKILLS</h1>
+        </div>
+        <div class="underline-custom"></div>
+      </div>
+
+      <div class="skill-container skillbg">
+        <div class="skill-row">
+          <img src="images/images4.jpg" alt="Codergirl" />
+        </div>
+        <div class="skill-row">
+          <div class="skillset">
+            <h4>HTML5</h4>
+            <div class="barcontainer">
+              <div class="bars html">
+                <span class="bar-num">95%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h4>CSS3</h4>
+            <div class="barcontainer">
+              <div class="bars css">
+                <span class="bar-num">80%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h4>JAVASCRIPT</h4>
+            <div class="barcontainer">
+              <div class="bars js"><span class="bar-num">75%</span></div>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h4>BOOTSTRAP</h4>
+            <div class="barcontainer">
+              <div class="bars bs"><span class="bar-num">35%</span></div>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h4>PHP</h4>
+            <div class="barcontainer">
+              <div class="bars php"><span class="bar-num">40%</span></div>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h4>MySQL</h4>
+            <div class="barcontainer">
+              <div class="bars sql"><span class="bar-num">43%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="achieve achievebg">
+      <div class="max-width">
+        <div class="heading">
+          <h1 id="linked_achieve">ACHIEVEMENTS</h1>
+        </div>
+        <div class="underline-custom"></div>
+      </div>
+
+      <div class="achieve-container">
+        <div class="box-layout">
+          <p>Participated and won several elocution competitions</p>
+        </div>
+
+        <div class="box-layout">
+          <p>Scholorship holder for securing 9.2 CGPA</p>
+        </div>
+
+        <div class="box-layout">
+          <p>Designed invitation for college's seminars</p>
+        </div>
+
+        <div class="box-layout">
+          <p>Has been a Radio Jockey at college</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="achieve contactbg">
+      <div class="max-width">
+        <div class="heading">
+          <h1 id="linked_contact">CONTACT</h1>
+        </div>
+        <div class="underline-custom"></div>
+      </div>
+
+      <div class="wrapper-contact">
+        <div class="container-contact">
+          <div class="contact-row">
+            <h3 class="contact-head-1">Have a project in mind?</h3>
+            <h4 class="contact-head-2">Drop a mail</h4>
+
+            <form action="#" method="POST" class="contact-form">
+              <input
+                type="text"
+                name="name"
+                class="contact-form-text"
+                placeholder="Name"
+                size="20"
+                required
+              />
+              <input
+                type="email"
+                name="mail"
+                class="contact-form-text"
+                placeholder="Email"
+                size="20"
+                required
+              />
+              <textarea
+                name="msg"
+                class="contact-form-text"
+                cols="30"
+                rows="10"
+                placeholder="Your message"
+              ></textarea>
+              <input type="submit" value="Send" class="contact-form-btn" />
+            </form>
+          </div>
+
+          <div class="contact-row">
+            <img src="images/image6.jpg" alt="contactImg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="grid-container">
+          <div class="service-container">
+            <h5 class="footer-heading">SERVICES</h5>
+            <div class="service-text">
+              <h6 class="service-text-row">Web development</h6>
+              <h6 class="service-text-row">Content creation</h6>
+              <h6 class="service-text-row">Designing</h6>
+            </div>
+          </div>
+
+          <div class="service-container">
+            <h5 class="footer-heading">CONNECT</h5>
+            <div class="logos-container">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-github-square"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
